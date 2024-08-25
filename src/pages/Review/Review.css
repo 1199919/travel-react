@@ -1,0 +1,33 @@
+.user-reviews {
+    padding: 50px 0;
+    background: #508C9B;
+  }
+  
+  .user-reviews h3 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #EEEEEE;
+  }
+  
+  .reviews-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .review-card {
+    background: #134B70;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .review-card p {
+    font-size: 1rem;
+    margin: 0 0 15px;
+  }
+  
+  .review-card h4 {
+    margin: 0;
+  }

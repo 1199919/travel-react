@@ -1,0 +1,58 @@
+.hero {
+    background: url('../../assets/best-places-to-visit-in-uganda.jpg') no-repeat center center/cover;
+    height: 500px;
+   color: #EEEEEE;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    position: relative;
+  }
+  
+  .hero-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .hero h2 {
+    font-size: 3rem;
+    margin: 0;
+  }
+  
+  .hero p {
+    font-size: 1.5rem;
+    margin: 10px 0;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .search-bar input[type="text"] {
+    padding: 10px;
+    width: 300px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+  }
+  
+  .search-bar button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #134B70;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .search-bar button:hover {
+    background-color: #201E43;
+  }

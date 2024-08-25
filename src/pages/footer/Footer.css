@@ -1,0 +1,29 @@
+footer {
+    background: #134B70;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-links ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  .footer-links ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.9rem;
+  }
+  
+  footer p {
+    margin-top: 10px;
+    font-size: 0.8rem;
+  }
+  
